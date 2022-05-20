@@ -1,0 +1,30 @@
+﻿{
+  "name": "v2ray",
+  "description": "v2ray",
+  "keywords": [
+    "v2ray"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议vless或vmess，请填写小写的vless或vmess",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/sdfguytrdfg6/v2ray",
+  "repository": "https://github.com/sdfguytrdfg6/v2ray",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
